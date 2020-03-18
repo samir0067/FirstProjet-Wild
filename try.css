@@ -1,17 +1,3 @@
-/* !!! IMPORT FONT !!! */
-
-@font-face {
-  font-family: "Xmaster";
-  src: url(font/XmasTerpieceSwashes.ttf);
-}
-
-@font-face {
-  font-family: "Bellota";
-  src: url(font/Bellota-Regular.ttf);
-}
-
-/* !!! LES BASES !!! */
-
 html {
   --bg: #efefef;
   --bg-panel: #222f3e;
