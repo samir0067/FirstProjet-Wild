@@ -1,16 +1,6 @@
-<!doctype html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<title>Contact</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/contact.css">
-    </head>
-    <?php include 'header.php'; ?>
-	<body>
+	<?php $title = 'Contact';
+	require './head.php'; ?>
+	<?php require './header.php'; ?>
 		<main class="container">
 			<section class="col-sm-12">
 				<h2 class="col-sm-12">N'hésitez pas a me contacter pour toutes demande d'informations.</h2>
@@ -70,7 +60,7 @@
 			</section>
 		</main>
     </body>
-	<?php include 'footer.php'; ?>
+	<?php require '/footer.php'; ?>
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>

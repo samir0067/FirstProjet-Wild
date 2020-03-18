@@ -1,31 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>index</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
-		<link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/exp.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
-		<title>Mon portfolio</title>
-	</head>
-	<body>
-        <?php include 'header.php';?>
+<?php $title = 'Portfolio';
+require './head.php';?>
+<?php require './header.php';?>
         
 			
         <section class="exp row">
             <h2 class="ex_title container-fluid as_titre">Des moments de <strong class="samirColor">Jon Snow</strong></h2>
             <div class="card-deck Portfolio">
-                    <div class="card as_card text1" >
-                        <h2><em class="samirColor">Frère assermenté de la Garde de Nuit</em></h2>
-                        <p class="card-title">Quand on rencontre <strong class="samirColor">Jon</strong>, il ne sait pas ce qu’est vraiment la Garde de Nuit. Il croit qu’il s’agit d’une fraternité honorable d’hommes qui ont protégé le mur pendant des centaines de milliers d’années, mais il ne sait pas que personne ne veut s’unir et qu’il est plein de voleurs et de violeurs qui sont là comme punition à vie.</p> 
-                        <p class="card-title"> cela, il décide d’oublier tout le reste et de devenir frère. Avec <strong class="samirColor">Sam</strong>, il récite son serment devant l’un des arbres de Dieu. Pendant un bref instant, il souhaite revenir pour aider son frère <strong>Robb Stark</strong> à la guerre, mais ses compagnons le reprennent. A partir de ce moment, il est convaincu qu’il a prêté serment pour la vie et qu’il servira le mur jusqu’à la fin de ses jours.
-                        <div class="card-body image1">
-                            <img src="img/imgPortfolio/jon01.png" class="card-img-top" alt="item021">
-                        </div>
-                    </div> 
+                <?php require './portfolio1.php'; ?>
                 <div class="card as_card text1">
                     <h2><em class="samirColor">Rencontre de <strong class="samirColor">Ygritte</strong></em></h2>                
                     <p class="card-title"> <strong class="samirColor">Jon</strong> se rend avec le commandant <strong class="samirColor">Mormont</strong> sur des terres au-delà du mur pour découvrir ce qui arrive aux randonneurs et aux sauvages. A un moment donné, après avoir traversé la maison de <strong>Craster</strong> et de ses épouses, ils rencontrent <strong>Qorin MediaMano</strong>, un explorateur qui a déjà mis le cap sur les camps des sauvages, et qui confirme que <strong>Mance Rayder</strong> (ancien Lord Commander of the Guard) unit tous les villages pour passer le mur.</p>
@@ -92,7 +73,7 @@
             </div>
         </section>
         
-		<?php include 'footer.php';?>
+		<?php require './footer.php';?>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"crossorigin="anonymous"></script>

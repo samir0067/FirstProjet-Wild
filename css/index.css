@@ -6,13 +6,13 @@
 }
 nav,
 footer {
-  background-color: var(--bg-panel) !important;
+  background-color: navy !important;
 }
 .navbar-brand,
 .nav-link,
 footer a,
 h3 {
-  color: var(--color-text-panel) !important;
+  color: white !important;
 }
 
 .navbar-brand,
@@ -24,13 +24,10 @@ h3 {
   font-weight: bold;
 }
 .nav-link:hover {
-  border-top: 3px solid var(--color-navbar-link);
-}
-.navbar-toggler-icon {
-  filter: var(--burger-color);
+  border-top: 3px solid white;
 }
 .navbar-toggler {
-  border-color: transparent !important;
+  border-color: white !important;
 }
 
 .toggle-container {
@@ -49,7 +46,7 @@ h3 {
   text-indent: -9999px;
   width: 52px;
   height: 27px;
-  background: var(--color-bg-switch);
+  background: indigo;
   float: right;
   border-radius: 100px;
   position: relative;
@@ -62,13 +59,13 @@ h3 {
   left: 3px !important;
   width: 20px !important;
   height: 20px !important;
-  background: var(--color-switch) !important;
+  background: tomato !important;
   border-radius: 90px !important;
   transition: 0.3s !important;
 }
 
 .psDarkcheckBox:checked + .psLabel {
-  background: var(--color-bg-switch) !important;
+  background: green !important;
 }
 
 .psDarkcheckBox:checked + .psLabel:after {
@@ -99,11 +96,11 @@ header {
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
-  color: var(--color-text);
+  color: white;
 }
 
 body {
-  background-color: var(--bg) !important;
+  background-color: slategray !important;
 }
 
 main,
@@ -126,7 +123,7 @@ h2 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
-  color: var(--color-text);
+  color: white;
 }
 .psViePerso {
   text-align: center;
@@ -135,7 +132,7 @@ h2 {
   padding-right: 0 !important;
   padding-left: 0 !important;
   margin: 4% 0 5% 0;
-  color: var(--color-text-panel);
+  color: white;
 }
 .card {
   text-align: center;
@@ -154,31 +151,31 @@ h2 {
 h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8em !important;
-  color: var(--color-text-panel);
+  color: white;
 }
 .card-text {
   text-align: justify;
-  color: var(--color-text-panel);
+  color: white;
   margin-left: 15%;
   margin-right: 15%;
 }
 
 a.psButton {
-  background-color: var(--bg-button);
-  border-color: var(--bg-button);
-  color: var(--text-button);
+  background-color: gold;
+  border-color: darkcyan;
+  color: darkblue;
   font-weight: 800;
 }
 a.psButton:hover {
-  background-color: var(--bg-hov-but);
-  border-color: var(--bg-hov-but);
-  color: var(--bg-button);
+  background-color: darkcyan;
+  border-color: darkblue;
+  color: gold;
   font-weight: 800;
 }
 a.psButton:active {
-  background-color: var(--bg-hov-but);
-  border-color: var(--bg-hov-but);
-  color: var(--bg-button);
+  background-color: darkblue;
+  border-color: gold;
+  color: darkcyan;
 }
 
 /* samir */
@@ -195,7 +192,7 @@ a.psButton:active {
 }
 .pstitreSa {
   font-family: "Montserrat", sans-serif;
-  color: var(--color-navbar-link) !important;
+  color: white !important;
 }
 .as_card {
   overflow: hidden;
@@ -257,30 +254,30 @@ footer ul {
 }
 footer ul,
 footer li {
-  background-color: var(--bg-panel);
+  background-color: white;
 }
 img.footChild {
   float: right;
-  height: 100%;
-  margin: 0 0 0 10vw;
+  height: 75%;
+  margin: -7% 0 -16% 5%;
 }
 .testCopyright {
   text-align: center;
   margin: -25px 10px 0 0;
   z-index: 5;
-  color: var(--color-text-panel);
+  color: lawngreen;
   font-size: 0.8em;
 }
 .fab {
-  color: var(--color-text-panel);
+  color: lightcoral;
   font-size: 1.2em;
 }
 .fab:hover {
-  color: var(--color-navbar-link);
+  color: lightskyblue;
 }
 .team li {
   text-align: center;
-  color: var(--color-text-panel);
+  color: lime;
 }
 
 .yb-links ul {
@@ -290,17 +287,17 @@ img.footChild {
   margin: 10px 0;
 }
 .psName {
-  color: var(--color-text-panel) !important;
+  color: mediumpurple !important;
 }
 .psName:hover {
-  color: var(--color-navbar-link) !important;
+  color: lightblue !important;
 }
 
 footer a {
   text-decoration: none !important;
 }
 footer a:hover {
-  color: var(--color-navbar-link) !important;
+  color: crimson !important;
 }
 
 @media screen and (max-width: 700px) {
