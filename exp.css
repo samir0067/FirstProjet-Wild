@@ -9,12 +9,12 @@ h5 {
 p {
   font-size: 1.4em;
   color: #333;
-  font-family: "Crimson";
+  font-family: "Montserrat", sans-serif;
 }
 h4 {
   text-transform: uppercase;
   color: var(--color-text-panel) !important;
-  font-family: "Bellota";
+  font-family: "Montserrat", sans-serif;
 }
 /* -- title -- */
 .ex_title {
