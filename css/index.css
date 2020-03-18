@@ -250,7 +250,6 @@ footer {
   display: flex !important;
   z-index: 1 !important;
   align-items: center;
-  padding: 2% 0;
 }
 footer ul {
   display: inline-block;
@@ -262,8 +261,8 @@ footer li {
 }
 img.footChild {
   float: right;
-  height: 100px;
-  margin-left: 20vw;
+  height: 100%;
+  margin: 0 0 0 10vw;
 }
 .testCopyright {
   text-align: center;
@@ -336,36 +335,6 @@ footer a:hover {
 }
 /* !! pour le switch !!*/
 
-html {
-  --bg: #efefef !important;
-  --bg-panel: #222f3e !important;
-  --color-text-panel: #ced6e0 !important;
-  --color-switch: #222f3e !important;
-  --color-text: #222f3e;
-  --color-bg-switch: #efefef !important;
-  --burger-color: invert(100%);
-  --bg-button: #e37d95 !important;
-  --text-button: #222f3e !important;
-  --bg-hov-but: #efefef !important;
-  --color-b-shadow: #333 !important;
-  --color-navbar-link: #efefef !important;
-}
-
-html[data-theme="dark"] {
-  --bg: #222f3e !important;
-  --bg-panel: #ced6e0 !important;
-  --color-text-panel: #222f3e !important;
-  --color-switch: #e37d95 !important;
-  --color-bg-switch: #222f3e !important;
-  --color-text: #efefef;
-  --color-text: #efefef;
-  --burger-color: invert(0%);
-  --bg-button: #222f3e !important;
-  --text-button: #e37d95 !important;
-  --bg-hov-but: #e37d95 !important;
-  --color-b-shadow: #ad5f72 !important;
-  --color-navbar-link: #e37d95 !important;
-}
 .samirColor {
   color: #222f3e;
 }

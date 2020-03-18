@@ -39,12 +39,10 @@ h2 {
   min-height: 567px !important;
   position: relative !important;
   overflow: hidden;
-  z-index: 1 !important;
   transition-property: transform;
   transition-duration: 1s;
   transition-timing-function: ease;
   background-color: #ced6e0 !important;
-  z-index: 2;
 }
 .image1 img {
   width: 100%;

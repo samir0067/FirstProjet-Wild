@@ -19,9 +19,9 @@
     
 </footer>
     <div>
-        <p class="testCopyright lsCopyr">Mars 2020 © Conçu avec beaucoup d'amour par la team CORONA: Yann, Paul et Samir      
+        <p class="testCopyright lsCopyr">Mars 2020 © Conçu avec beaucoup d'amour par Samir      
         </p>
-        <p class="testCopyright msCopyr">2020 © CORONA ♥</p>
+        <p class="testCopyright msCopyr">2020 ©</p>
     </div>
     
 

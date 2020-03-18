@@ -11,9 +11,6 @@
                     <a class="nav-item nav-link" href="contact.php">Contact</a>
                 </div>
             </div>
-            <div class="toggle-container psNavSwitch" action="testCookie.php">
-                         <input class="psDarkcheckBox" type="checkbox" id="switch" name="theme" /><label title="Mode sombre" class="psLabel" for="switch" name="nameDark">Toggle</label>
-                </div>
         </nav>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
