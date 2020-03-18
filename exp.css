@@ -1,0 +1,93 @@
+/* général */
+body {
+  background-color: #222f3e;
+}
+h5 {
+  color: #333;
+  margin: 1.5%;
+}
+p {
+  font-size: 1.4em;
+  color: #333;
+  font-family: "Crimson";
+}
+h4 {
+  text-transform: uppercase;
+  color: var(--color-text-panel) !important;
+  font-family: "Bellota";
+}
+/* -- title -- */
+.ex_title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px auto 0;
+}
+h2 {
+  margin-top: 2px !important;
+}
+.as_titre {
+  font-size: 1.2em !important;
+}
+/* -- block -- */
+.Portfolio {
+  margin: 30px auto;
+}
+.text1 {
+  display: inline-block;
+  max-width: 1080px !important;
+  min-width: 850px !important;
+  min-height: 567px !important;
+  position: relative !important;
+  overflow: hidden;
+  z-index: 1 !important;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  background-color: #ced6e0 !important;
+  z-index: 2;
+}
+.image1 img {
+  width: 100%;
+  height: 100%;
+  bottom: 207px;
+  right: 0;
+}
+.text1 .image1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transition: 2s;
+  z-index: 1;
+  padding: 0 !important;
+}
+/* -- hover -- */
+.text1:hover .image1 {
+  transform: translateX(100%);
+}
+@media screen and (max-width: 950px) {
+  .text1 {
+    max-width: 850px !important;
+    min-width: 680px !important;
+    min-height: 360px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .text1 {
+    max-width: 661px !important;
+    min-width: 351px !important;
+    min-height: 600px !important;
+  }
+  .image1 img {
+    bottom: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text1 {
+    max-width: 450px !important;
+    min-width: 360px !important;
+    min-height: 375px !important;
+  }
+  .image1 img {
+    bottom: -20px;
+  }
+}

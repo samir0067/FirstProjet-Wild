@@ -1,0 +1,105 @@
+main {
+    padding: 0 5%;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--bg-panel);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+iframe{
+    border: 1px solid black;
+    margin: 10px 10px 20px 10px;
+}
+form {
+    display: inline-block;
+    width: 200px;
+    padding: 0 20px 20px 20px;
+}
+.yb-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color)!important;
+}
+
+.yb-colum {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.yb-select label{
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: var(--color-text-panel);
+}
+select{
+    margin: 0 0 20px 0;
+}
+
+.yb-test {
+    display: flex;
+}
+.yb-veq{
+    text-align: center;
+    margin: 10px 0;
+}
+.radio {
+    margin: 20px 0;
+}
+.radio label, .radio input{
+    display: block;
+}
+label{
+    margin: 0 10px 0 0;
+    color: var(--color-text-panel)!important;
+}
+#txt label {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: var(--color-text-panel) !important
+}
+textarea {
+    height: 100px;
+    display: block;
+    margin-top: 10px; 
+    border-radius: 10px;
+}
+#button-form {
+    text-align: right;
+}
+#button-form input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#button-form input:hover {
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--bg-panel);
+    transition-delay: 0.2s;
+    color: var(--color-navbar-link);
+}
+h2 {
+    font-size: 1.5em!important;
+    color: var(--color-text-panel);
+}
+@media screen and (max-width:650px){
+    article {
+        display: block!important;
+    }
+    iframe {
+        display: block;
+        max-width: 100%!important;
+    }
+    form {
+        display: block;
+        max-width: 100%!important;
+    }
+}
