@@ -1,4 +1,5 @@
 
+
 <div class="card as_card text1" >
     <h2><em class="samirColor">Frère assermenté de la Garde de Nuit</em></h2>
         <p class="card-title">Quand on rencontre <strong class="samirColor">Jon</strong>, il ne sait pas ce qu’est vraiment la Garde de Nuit. Il croit qu’il s’agit d’une fraternité honorable d’hommes qui ont protégé le mur pendant des centaines de milliers d’années, mais il ne sait pas que personne ne veut s’unir et qu’il est plein de voleurs et de violeurs qui sont là comme punition à vie.</p> 

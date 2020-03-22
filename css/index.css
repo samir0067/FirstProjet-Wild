@@ -6,7 +6,7 @@
 }
 nav,
 footer {
-  background-color: navy !important;
+  background-color: rgb(82, 82, 156) !important;
 }
 .navbar-brand,
 .nav-link,
@@ -14,7 +14,10 @@ footer a,
 h3 {
   color: white !important;
 }
-
+.active {
+  font-size: larger;
+  font-weight: bold;
+}
 .navbar-brand,
 .nav-link {
   text-transform: uppercase;

@@ -6,9 +6,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
+                  <li class= "<?php if ($nav === "vieperso") : ?>active<?php endif; ?>">
                     <a class="nav-item nav-link" href="viePerso.php">Mon histoire</a>
+                  </li>
+                  <li class= "<?php if ($nav === "exp") : ?>active<?php endif; ?>">
                     <a class="nav-item nav-link" href="exp.php">Portfolio</a>
+                  </li>
+                  <li class= "<?php if ($nav === "contact") : ?>active<?php endif; ?>">
                     <a class="nav-item nav-link" href="contact.php">Contact</a>
+                  </li>  
                 </div>
             </div>
         </nav>

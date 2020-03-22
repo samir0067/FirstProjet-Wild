@@ -1,6 +1,4 @@
-<?php $title = "Page d'accueil"; 
-require './head.php';?>
-
+<?php $title = "Page d'accueil"; require './head.php';?>
 <?php require './header.php';?>
 		<main class="container-fluid">
 			

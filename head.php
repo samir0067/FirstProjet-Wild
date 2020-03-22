@@ -9,8 +9,6 @@
 			<?php } else { ?> 
 				Mon CV 2.0
 			<?php } ?>
-
-		<?php if (isset($title)) { echo $title; } else { echo ' Mon CV '; } ?>
 		</title>
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/try.css">

@@ -1,4 +1,6 @@
-<?php $title = 'Vie perso';
+<?php 
+$title = 'Vie perso';
+$nav = 'vieperso';
 require './head.php';?>
 <?php require './header.php';?>
     
