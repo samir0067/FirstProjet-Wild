@@ -1,6 +1,5 @@
 	<?php 
 	$title = 'Contact';
-	$nav = 'contact';
 	require './head.php'; ?>
 	<?php require './header.php'; ?>
 		<main class="container">

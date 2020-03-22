@@ -1,3 +1,15 @@
+<?php
+function nav_title (string $lien, string $title): string
+{
+  $classe = 'nav_title';
+  if ($_SERVER['SCRIPT_NAME'] === $lien) {
+    $classe = $classe . ' active';
+  }
+  return '<li class="' . $classe . '">
+            <a class="nav-item nav-link" href="' . $lien . '"> ' . $title . '</a>
+        </li>';
+}
+?>
 <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.php">Son Goku(kakarot)</a>
@@ -6,15 +18,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <li class= "<?php if ($nav === "vieperso") : ?>active<?php endif; ?>">
-                    <a class="nav-item nav-link" href="viePerso.php">Mon histoire</a>
-                  </li>
-                  <li class= "<?php if ($nav === "exp") : ?>active<?php endif; ?>">
-                    <a class="nav-item nav-link" href="exp.php">Portfolio</a>
-                  </li>
-                  <li class= "<?php if ($nav === "contact") : ?>active<?php endif; ?>">
-                    <a class="nav-item nav-link" href="contact.php">Contact</a>
-                  </li>  
+                  <?= nav_title('/viePerso.php', 'Mon histoire'); ?>
+                  <?php echo nav_title('/exp.php', 'Portfolio'); ?>
+                  <?php echo nav_title('/contact.php', 'Contact'); ?>
                 </div>
             </div>
         </nav>

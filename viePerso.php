@@ -1,11 +1,10 @@
 <?php 
 $title = 'Vie perso';
-$nav = 'vieperso';
 require './head.php';?>
 <?php require './header.php';?>
     
     <div class="container-fluid psContainer">
-
+        
         <!-- Image profil -->
 
         <h2 class="psTitle">Mon histoire</h2>

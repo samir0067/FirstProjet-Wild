@@ -1,6 +1,5 @@
 <?php 
 $title = 'Portfolio';
-$nav = 'exp';
 require 'head.php';?>
 <?php require 'header.php';?>
         

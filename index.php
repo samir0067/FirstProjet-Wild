@@ -1,4 +1,3 @@
-<?php $title = "Page d'accueil";?>
 <?php require 'head.php';?>
 <?php require 'header.php';?>
 		<main class="container-fluid">
