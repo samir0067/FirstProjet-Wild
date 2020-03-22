@@ -7,72 +7,55 @@ require 'head.php';?>
 			
         <section class="exp row">
             <h2 class="ex_title container-fluid as_titre">Des moments de <strong class="samirColor">Jon Snow</strong></h2>
-            <div class="card-deck Portfolio">
+            
+            <?php
+            $allPortfolios = [
+                "L’Attaque du dragon" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/attaquedragon.jpg"],
 
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">Fusions</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/attaquedragon.jpg" class="card-img-top" alt="item021">
-                    </div>
-                </div>
+                "L'Offensive des cyborgs" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/cyborgs.jpg"],
 
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">À la poursuite de Garlic</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/cyborgs.jpg" class="card-img-top" alt="item021">
-                    </div>
-                </div>
+                "Fusions" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/Fusions.jpg"],
 
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">Fusions</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/Fusions.jpg" class="card-img-top" alt="item021">
-                    </div>
-                </div>
-                
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">À la poursuite de Garlic</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/garlic.jpg" class="card-img-top" alt="item021">
-                    </div>
-                </div>
-                
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">Les Affranchies</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/dbzdark.png" class="card-img-top" alt="item021">
-                    </div>
-                </div>
-                    
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">Cent mille guerriers de métal</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/métal.jpg" class="card-img-top" alt="item021">
-                    </div>
-                </div>
-                
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">Broly le super guerrier</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/broly01.png" class="card-img-top" alt="item021">
-                    </div>
-                </div>
-                
-                <div class="card as_card text1">
-                    <h2><em class="samirColor">Les Mercenaires de l’espace</em></h2>                
-                    <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!</p>
-                    <div class="card-body image1">
-                        <img src="img/imgPortfolio/mercenaire.jpg" class="card-img-top" alt="item021">
-                    </div>
-                </div>
-            </div>
+                "À la poursuite de Garlic" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/garlic.jpg"],
+
+                "Les Affranchies" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/dbzdark.png"],
+
+                "Cent mille guerriers de métal" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/métal.jpg"],
+
+                "Broly le super guerrier" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/broly01.png"],
+
+                "Les Mercenaires de l’espace" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/mercenaire.jpg"],
+
+                "Le Château du démon" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/majin-buu.jpg"],
+
+                "Le Combat fratricide" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/cellaraine.jpg"],
+
+                "Le Père de Songoku " => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/vegeta.png"],
+
+                "La Menace de Namek" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/gotreunk.png"],
+
+                "La Revanche De Cooler" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/gohan.jpg"],
+
+                "L'Histoire de Trunks" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/frezas.jpg"],
+
+                "Le Plan d'anéantissement des Saiyans " => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/hercule.jpg"],
+
+                "Le Retour de Broly" => ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis sequi nisi cupiditate amet magnam, dignissimos consectetur tenetur repellendus ipsum quaerat ratione, ab alias quis, quasi repellat nostrum maiores eaque tempore doloribus eligendi a deserunt maxime. Ipsa magnam exercitationem corporis!", "img/imgPortfolio/black.jpg"]
+
+
+            ];
+            echo"<div class='card-deck Portfolio'>";
+            foreach ($allPortfolios as $title_key => $allPortfolio) {
+                echo"<div class='card as_card text1'>";
+                    echo"<h2><em class='samirColor'> $title_key </em></h2>";
+                    echo"<p class='card-title'>$allPortfolio[0]</p>";
+                        echo"<div class='card-body image1'>";
+                            echo"<img src='$allPortfolio[1]' class='card-img-top' alt='item021'>";
+                        echo"</div>";
+                echo"</div>";
+            }
+            echo"</div>";
+            ?>
         </section>
         
 		<?php require './footer.php';?>

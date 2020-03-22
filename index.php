@@ -27,78 +27,9 @@
 			
 			<section class="exp row">
 				<h2 class="col-sm-12">Portfolio</h2>
-				<div class="card-deck Portfolio">
-					<div class="card as_card">
-						<img src="img/imgPortfolio/attaquedragon.jpg" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
-							<h3 class="card-title">L’Attaque du dragon</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
-						</div>	
-					</div>
-					<div class="card as_card">
-						<img src="img/imgPortfolio/cyborgs.jpg" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
 
-							<h3 class="card-title">L'Offensive des cyborgs</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
+			<?php require 'ind_card.php'?>
 
-						</div>	
-					</div>
-					<div class="card as_card">
-						<img src="img/imgPortfolio/Fusions.jpg" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
-
-							<h3 class="card-title">Fusions</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
-
-						</div>	
-					</div>
-					<div class="card as_card">
-						<img src="img/imgPortfolio/garlic.jpg" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
-
-							<h3 class="card-title">À la poursuite de Garlic</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
-
-						</div>	
-					</div>
-					<div class="card as_card">
-						<img src="img/imgPortfolio/dbzdark.png" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
-
-							<h3 class="card-title">Les Affranchies</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
-
-						</div>	
-					</div>
-					<div class="card as_card">
-						<img src="img/imgPortfolio/métal.jpg" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
-
-							<h3 class="card-title">Guerriers de métal</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
-
-						</div>	
-					</div>
-					<div class="card as_card">
-						<img src="img/imgPortfolio/broly01.png" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
-
-							<h3 class="card-title">Broly le super guerrier</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
-
-						</div>	
-					</div>
-					<div class="card as_card">
-						<img src="img/imgPortfolio/mercenaire.jpg" class="card-img-top" alt="item021">
-						<div class="card-body as_body">
-
-							<h3 class="card-title">Les Mercenaires de l’espace</h3>
-							<a href="exp.php" class="btn btn-primary psButton">Go</a>
-
-						</div>	
-					</div>
-				</div>
 			</section>
 			
 			<!-- fin de partie Portfolio -->
