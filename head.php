@@ -7,7 +7,7 @@
 			<?php if (isset($title)) { ?> 
 				<?php echo $title; ?>
 			<?php } else { ?> 
-				Mon CV 2.0
+				Dragon ball Z
 			<?php } ?>
 		</title>
         <link rel="stylesheet" href="css/index.css">

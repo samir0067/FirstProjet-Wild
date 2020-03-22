@@ -1,6 +1,6 @@
 <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.php">Jon Snow</a>
+            <a class="navbar-brand" href="index.php">Son Goku(kakarot)</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,13 +26,13 @@
             </ol>
             <div class="carousel-inner max-height">
               <div class="carousel-item active">
-                <img src="img/jon_mo.jpg" class="d-block w-100" alt="...">
+                <img src="img/goku01.2.0.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/jon_snow.jpg" class="d-block w-100" alt="...">
+                <img src="img/goku03.2.0.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/jonCheval.jpg" class="d-block w-100" alt="Il pue un peu de la bouche">
+                <img src="img/goku02.2.0.png" class="d-block w-100" alt="Il pue un peu de la bouche">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
