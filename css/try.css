@@ -1,0 +1,206 @@
+body {
+  background-color: green;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.containerP {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.containerPDeux {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  flex: 1 1 auto;
+  margin: 5%;
+}
+
+.psPictures {
+  border-radius: 30px;
+}
+
+.psQuoteBase {
+  background-color: blueviolet;
+  color: white;
+  padding: 1%;
+  width: 20%;
+  min-width: 300px;
+  font-style: italic;
+  border-radius: 5px;
+  font-family: "Bellota";
+}
+
+/* !!! FIN DES BASES !!! */
+
+/* BALISES SIMPLES */
+
+i {
+  color: #ffffff;
+}
+
+h1 {
+  color: white;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "Xmaster";
+}
+
+hr {
+  background-color: black;
+  height: 1px;
+  margin: 0 35% 0 35%;
+  display: none;
+}
+
+.itemFour {
+  margin: 1%;
+}
+
+/* LES IMAGES */
+
+.psImageUn {
+  max-width: 400px !important;
+  height: auto;
+}
+
+.psImageDeux {
+  max-width: 500px !important;
+  background-size: cover;
+}
+
+.psImageTrois {
+  width: 300px;
+}
+
+.psImageFour {
+  width: 900px;
+  margin: 0 2% 0 2% 0;
+}
+
+/* LES QUOTES */
+
+.psQuoteUn {
+  height: 4em;
+  padding: 2%;
+  margin: 0 70px 40px -50px;
+}
+
+.psQuoteDeux {
+  position: absolute;
+  height: 4em;
+  margin: 98px -330px 0 0px;
+  z-index: 1;
+}
+
+.psQuoteTrois {
+  height: auto;
+  margin: 0% 10% 5% -20%;
+}
+
+.psQuoteFour {
+  height: 4em;
+  padding: 4%;
+  margin: auto;
+  margin-top: -12%;
+}
+
+/* LES PARAGRAPHES */
+
+.psPara {
+  text-align: justify;
+  color: white;
+}
+
+.psParaFour {
+  margin: auto;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/* !!! MEDIA QUERIES !!!*/
+
+@media screen and (max-width: 975px) {
+  hr {
+    display: block;
+  }
+
+  .psImageUn {
+    width: 300px;
+    height: auto;
+    background-size: cover;
+  }
+
+  .psImageDeux {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .psImageFour {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+
+  .containerP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerP {
+    margin: 2% 0% 2% 0%;
+  }
+  .containerPDeux {
+    margin: 2% 0% 2% 0%;
+  }
+
+  .psQuoteUn {
+    align-self: center;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+
+  .psQuoteDeux {
+    position: unset;
+    margin: 0 0 -2% 0;
+  }
+
+  .psQuoteTrois {
+    margin: auto;
+    margin-bottom: 2%;
+  }
+
+  .psQuoteFour {
+    margin: auto;
+  }
+
+  .psParaFour {
+    margin: auto;
+  }
+
+  .itemUn,
+  .itemDeux,
+  .itemTrois {
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width: 1480px) and (min-width: 975px) {
+  .psQuoteTrois {
+    height: auto;
+    margin: 0% 0% 4% -10%;
+  }
+}

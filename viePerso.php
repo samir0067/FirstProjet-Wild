@@ -1,37 +1,17 @@
-
-<!doctype html>
-<html lang="fr">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="try.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Jon Snow CV</title>
-</head>
-
-<body>
-    <?php include 'header.php';?>
+<?php 
+$title = 'Vie perso';
+require './head.php';?>
+<?php require './header.php';?>
     
     <div class="container-fluid psContainer">
-
+        
         <!-- Image profil -->
 
         <h2 class="psTitle">Mon histoire</h2>
         <div class="containerP">
             <div class="item itemUn">
                 <img class="psImageUn psPictures img-fluid" data-aos="fade-right" data-aos-duration="1000"
-                    src="img/Jon_profile.jpg" alt="Photo de profil" title="C'est ma photo" />
+                    src="img/imgViePerso/boojunior.jpg" alt="Photo de profil" title="C'est ma photo" />
             </div>
 
             <!-- Premier paragraphe et premiere Quote-->
@@ -71,7 +51,7 @@
             <!-- Deuxieme image-->
 
             <div class="item itemDeux" data-aos="fade-left">
-                <img class="psImageDeux psPictures img-fluid" src="img/jonBack.jpg" alt="Quand je travaille"
+                <img class="psImageDeux psPictures img-fluid" src="img/imgViePerso/frezer.jpg" alt="Quand je travaille"
                     title="Quand je travaille" />
             </div>
         </div>
@@ -85,7 +65,7 @@
             <!-- Troisieme images-->
 
             <div class="item itemTrois" data-aos="fade-right" data-aos-delay="300">
-                <img class="psImageTrois psPictures" src="img/loup.jpg" alt="Ca c'est mon loup, tout blanc"
+                <img class="psImageTrois psPictures" src="img/imgViePerso/gokuvegeta.jpg" alt="Ca c'est mon amie
                     title="C'est mon Loup, il est beau hein ? " />
             </div>
 
@@ -93,12 +73,9 @@
 
             <div class="item itemTrois">
                 <div class="psQuoteTrois psQuoteBase" data-aos="fade-down-left" data-aos-delay="1200">
-                    <i class="fas fa-quote-left"></i> Lui c'est mon loup. Je voulais l'appeler Loulou mais je me suis
-                    ravisé...
+                    <i class="fas fa-quote-left"></i> Lui c'est mon amie Vegeta toujours trés trés trés énervé
                 </div>
-                <p class="psPara" data-aos="fade-left" data-aos-delay="300">Du coup j’alterne entre des missions et la gestion de la confrérie, ça ne plaît pas à tout le monde, c’est là que j’ai rencontré pour la deuxième fois la faucheuse… La confrérie a décidé de me tuer parce que soi-disant j’étais un traitre. mais comme j’ai énormément de résilience et un bon suis ressuscité me demandait pas comment, ça c’est mon petit secret.
-Étant un beau garçon j’ai eu quelques conquêtes notamment une jolie "sauvageonne" qui s’appelait… Ah mince j’ai oublié son nom… Bon pas grave en même temps elle est décédé un peu comme beaucoup de personnes autour de moi…
-J’ai pas mal voyagé on peut dire que le royaume des sept couronnes n’a plus trop de secret pour moi. C’est d’ailleurs lors d’un de mes voyages si je ne dis pas de bêtises que j’ai rencontré ma deuxième épouse avec qui ça c’est un peu mal terminé mais on y reviendra plus tard.
+                <p class="psPara" data-aos="fade-left" data-aos-delay="300">Du coup j’alterne entre des missions et la gestion de la confrérie, ça ne plaît pas à tout le monde, c’est là que j’ai rencontré pour la deuxième fois la faucheuse… La confrérie a décidé de me tuer parce que soi-disant j’étais un traitre. mais comme j’ai énormément de résilience et un bon suis ressuscité me demandait pas comment, ça c’est mon petit secret Étant un beau garçon j’ai eu quelques conquêtes notamment une jolie "sauvageonne" qui s’appelait… Ah mince j’ai oublié son nom… Bon pas grave en même temps elle est décédé un peu comme beaucoup de personnes autour de moi…J’ai pas mal voyagé on peut dire que le royaume des sept couronnes n’a plus trop de secret pour moi. C’est d’ailleurs lors d’un de mes voyages si je ne dis pas de bêtises que j’ai rencontré ma deuxième épouse avec qui ça c’est un peu mal terminé mais on y reviendra plus tard.
                 </p>
             </div>
         </div>
@@ -111,58 +88,25 @@ J’ai pas mal voyagé on peut dire que le royaume des sept couronnes n’a plus
             <!--###################### Quatrieme paragraphe et Quote ######################-->
             <div class="item itemFour" data-aos="fade-up" data-aos-delay="300">
                 <p class="psPara psParaFour"> Daenerys ma deuxième femme, c’est un peu la Brigitte bardo du royaume de sept couronnes, quand elle n’était pas connue on lui a offert 3 oeufs, elle m’a confié qu’au début elle pensait que c’était des oeufs d’autruches avec une forme bizarre mais au final il s’est avéré que c’était des oeufs de dragons… Je vous raconte pas comment c’est caractériel un dragon, heureusement j’ai la qualité d’avoir une main de fer (et non d’or hein Jamie) dans un gant de velours.
-Ah et j’ai failli oublier, j’ai un loup, bon la plupart du temps il n'est pas trop avec moi et il fait sa vie de son coté mais il est toujours là dans les coups dur.
-Dans ma vie j’ai dû beaucoup faire mes preuves et comme je pense qu’une action vaut mille mots autant dire que j’en ai fait des actions. Je ne suis pas du genre bagarreur mais il ne faut pas me chercher, j’ai toujours mon épée à la ceinture et je n’hésite pas à la sortir en cas de litige. J’ai dû mener des grosses batailles de territoire. Donc je manie l’épée comme personne et du fait que j’ai un esprit stratège très développé je n’ai pas peur de commencer une bataille en infériorité numérique. Je pense maintenant et fort de mon expérience savoir gérer un groupe de personnes aisément. Je suis fidèle et loyal envers mes amis comme peut le témoigner mon plus fidèle ami Samwell alias Sam. Seul petit défaut j’ai du mal à gérer le parallèle entre vie amoureuse et vie professionnelle.
-
-Daenerys en a fait les frais même si son succès lui a monté a la tete, avec dû recule je ne pense pas que la tuer était le meilleur choix à faire… Mais j’ai pris de mes erreurs et je sais que la prochaine fois je demanderai à mon réseau une potion qui permet de lui faire dire et faire n’importe quoi un peu comme le neuroleptique chez vous. Je suis à la recherche d’opportunités dans le secteur martial de préférence un poste haut gradé tout de même ou alors un poste coach en relation amoureuse… 
-</p>
+        Ah et j’ai failli oublier, j’ai un loup, bon la plupart du temps il n'est pas trop avec moi et il fait sa vie de son coté mais il est toujours là dans les coups dur.
+        Dans ma vie j’ai dû beaucoup faire mes preuves et comme je pense qu’une action vaut mille mots autant dire que j’en ai fait des actions. Je ne suis pas du genre bagarreur mais il ne faut pas me chercher, j’ai toujours mon épée à la ceinture et je n’hésite pas à la sortir en cas de litige. J’ai dû mener des grosses batailles de territoire. Donc je manie l’épée comme personne et du fait que j’ai un esprit stratège très développé je n’ai pas peur de commencer une bataille en infériorité numérique. Je pense maintenant et fort de mon expérience savoir gérer un groupe de personnes aisément. Je suis fidèle et loyal envers mes amis comme peut le témoigner mon plus fidèle ami Samwell alias Sam. Seul petit défaut j’ai du mal à gérer le parallèle entre vie amoureuse et vie professionnelle.</p>
             </div>
             <div class="item itemFour">
                 <div class="psQuoteFour psQuoteBase" data-aos="fade-left" data-aos-delay="700"
                     data-aos-duration=""="2000">
-                    <i class="fas fa-quote-left"></i> Mon plus beau sourir ...
+                    <i class="fas fa-quote-left"></i>Une fois que j'ai fini le travail ...
                 </div>
             </div>
             <!--######################      Quatrieme Image    ######################-->
 
 
             <div class="item itemFour" data-aos="fade-right">
-                <img class="psImageFour psPictures" src="img/afterWork.jpg" alt="Une fois que j'ai fini le travail"
+                <img class="psImageFour psPictures" src="img/imgViePerso/Goku-à-table.jpg" alt="Une fois que j'ai fini le travail"
                     title="Avant la douche" />
             </div>
         </div>
 
-     <?php include 'footer.php';?>
-        <!--Script scroll animation-->
-
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-        </script>
-        <script>
-            AOS.init({once:true});
-        </script>
-        <!-- Script pour bouton -->
-        <script>
-            var checkbox = document.querySelector('input[name=theme]');
-
-            checkbox.addEventListener('change', function () {
-                if (this.checked) {
-                    trans()
-                    document.documentElement.setAttribute('data-theme', 'dark')
-                } else {
-                    trans()
-                    document.documentElement.setAttribute('data-theme', 'light')
-                }
-            })
-
-            let trans = () => {
-                document.documentElement.classList.add('transition');
-                window.setTimeout(() => {
-                    document.documentElement.classList.remove('transition')
-                }, 1000)
-            }
-        </script>
-
-        <!-- Optional JavaScript -->
+        <?php include 'footer.php';?>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

@@ -1,0 +1,19 @@
+main {
+  padding: 0 5%;
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em !important;
+  color: white;
+}
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: sienna;
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+.jumbotron {
+  margin-top: 4%;
+  background-color: rgba(146, 173, 243, 0.6);
+}
