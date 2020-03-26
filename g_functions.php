@@ -10,10 +10,3 @@ function nav_title (string $lien, string $title): string
         </li>';
 }
 ?>
-
-<pre>
-<?php print_r($_SERVER); ?>
-</pre>
-
-
-<?= nav_title('/c_viePerso.php', 'Mon histoire'); ?>

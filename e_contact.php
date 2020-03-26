@@ -3,14 +3,14 @@
 	require 'a_head_header.php';?>
 		<main class="container">
 			<section class="col-sm-12">
+			<div class="row">
 				<h2 class="col-sm-12">Contacter moi pour toutes demande.</h2>
-				<form action="/g_funtions.php"  method="POST" class="container col-8">
-					<fieldset>
+				<form action="/i_quizz.php"  method="POST" class="container col-md-6">
 						<div class="form-group">
 							<input type="text" id="prenom" class="form-control" name="firstname" placeholder="Prenom">
 						</div>
 						<div class="form-group">
-							<input type="text" id="nom" class="form-control" name="lastname" placeholder="ex: Nom">
+							<input type="text" id="nom" class="form-control" name="lastname" placeholder="Nom">
 						</div>
 						<div class="form-group">
 							<input type="email" id="courriel" class="form-control" name="user_email" placeholder="Email">
@@ -19,20 +19,12 @@
 							<input type="tel" class="form-control" name="user_tel" pattern="[0-9]{10}" placeholder="06..">
 						</div>
 						<div class="form-group">
-							<select class="form-control" id="sujet" name="user_sujet">
-								<option value="Sujet 1">Sujet 1</option>
-								<option value="Sujet 1">Sujet 2</option>
-								<option value="Sujet 1">Sujet 3</option>
-								<option value="Sujet 1">Sujet 4</option>
-								<option value="Sujet 1">Sujet 5</option>
-							</select>
-						</div>
-						<div class="form-group">
 							<textarea class="form-control" id="message" name="user_message" rows="3" placeholder="message"></textarea>
 						</div>
 						<button type="submit" class="btn btn-primary" >Envoyer</button>
 					</fieldset>
 				</form>
+			</div>
 			</section>
 		</main>
 		<?php require 'f_footer.php'; ?>

@@ -4,7 +4,7 @@ require 'a_head_header.php';?>
         
 			
         <section class="exp row">
-            <h2 class="ex_title container-fluid as_titre">Des moments de <strong class="samirColor">Jon Snow</strong></h2>
+            <h2 class="ex_title container-fluid as_titre">Des moments aux travails</h2>
             
             <?php
             $allPortfolios = [
