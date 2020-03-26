@@ -1,10 +1,10 @@
- <footer class="container-fluid">
+<footer class="container-fluid">
     <div class="container-fluid footCont">
         <ul class="col-md-2  col-sm-4 site-map footChild">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="viePerso.php">Mon histoire</a></li>
-            <li><a href="exp.php">Portfolio</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="b_index.php">Home</a></li>
+            <li><a href="c_viePerso.php">Mon histoire</a></li>
+            <li><a href="d_exp.php">Portfolio</a></li>
+            <li><a href="e_contact.php">Contact</a></li>
         </ul>
         <ul class="yb-links col-md-2 offset-md-1 col-sm-4 footChild">
             <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i><span class="psName"> /Facebook</span></a></li>

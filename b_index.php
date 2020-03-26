@@ -1,5 +1,4 @@
-<?php require 'head.php';?>
-<?php require 'header.php';?>
+<?php require 'a_head_header.php';?>
 		<main class="container-fluid">
 			
 			<!-- début partie perso -->
@@ -27,7 +26,7 @@
 			<section class="exp row">
 				<h2 class="col-sm-12">Portfolio</h2>
 
-			<?php require 'ind_card.php'?>
+			<?php require_once 'h_card.php'?>
 
 			</section>
 			
@@ -50,5 +49,5 @@
 			</section>
 			<!-- fin de partie Contact -->
 		</main>
-		<?php require './footer.php';?>
+		<?php require 'f_footer.php';?>
 

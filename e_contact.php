@@ -1,11 +1,10 @@
 	<?php 
 	$title = 'Contact';
-	require './head.php'; ?>
-	<?php require './header.php'; ?>
+	require 'a_head_header.php';?>
 		<main class="container">
 			<section class="col-sm-12">
-				<h2 class="col-sm-12">Contacter moi pour toutes demande d'informations.</h2>
-				<form action="/thanks.php"  method="POST" class="container col-8">
+				<h2 class="col-sm-12">Contacter moi pour toutes demande.</h2>
+				<form action="/g_funtions.php"  method="POST" class="container col-8">
 					<fieldset>
 						<div class="form-group">
 							<input type="text" id="prenom" class="form-control" name="firstname" placeholder="Prenom">
@@ -36,7 +35,7 @@
 				</form>
 			</section>
 		</main>
-		<?php require 'footer.php'; ?>
+		<?php require 'f_footer.php'; ?>
     </body>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>

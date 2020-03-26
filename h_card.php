@@ -1,4 +1,5 @@
 <?php
+
 $portfolios = [
     "img/imgPortfolio/attaquedragon.jpg" => ["L’Attaque du dragon"],
     "img/imgPortfolio/cyborgs.jpg" => ["L'Offensive des cyborgs"],
@@ -20,4 +21,3 @@ echo"<div class='card as_card'>";
 echo"</div>";
 }
 echo"</div>";
-?>
