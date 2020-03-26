@@ -261,7 +261,7 @@ footer ul {
 img.footChild {
   float: right;
   height: 75%;
-  margin: -7% 0 -16% 5%;
+  margin: -7% 0 0% -10%;
 }
 .testCopyright {
   text-align: center;
@@ -289,10 +289,10 @@ img.footChild {
   margin: 10px 0;
 }
 .psName {
-  color: mediumpurple !important;
+  color: rgb(0, 0, 0) !important;
 }
 .psName:hover {
-  color: lightblue !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 footer a {

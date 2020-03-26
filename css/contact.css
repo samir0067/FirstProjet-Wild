@@ -33,7 +33,7 @@ section {
 
 .as_quizz {
   position: relative;
-  margin-top: -520px;
+  margin-top: -640px;
   background-color: rgba(160, 82, 45, 0.5)!important;
 }
 
@@ -44,4 +44,7 @@ section {
 .as_succes p {
   color: black;
   
+}        .jumbotron {
+  margin-top: 4%;
+  background-color: rgba(146, 173, 243, 0.6);
 }

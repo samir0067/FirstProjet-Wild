@@ -9,8 +9,6 @@
         <ul class="yb-links col-md-2 offset-md-1 col-sm-4 footChild">
             <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i><span class="psName"> /Facebook</span></a></li>
             <li><a href="https://twitter.com"><i class="fab fa-twitter"></i><span class="psName"> /twitter</span></a></li>
-        </ul>
-        <ul class="yb-links col-md-2 col-sm-4 footChild">
             <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i><span class="psName"> /Instagrame</span></a></li>
             <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span class="psName"> /linkedin</span></a></li>
         </ul>
