@@ -1,0 +1,340 @@
+.max-height {
+  max-height: 480px !important;
+}
+.yb-align {
+  text-align: center;
+}
+nav,
+footer {
+  background-color: rgb(82, 82, 156) !important;
+}
+.navbar-brand,
+.nav-link,
+footer a,
+h3 {
+  color: white !important;
+}
+.active {
+  font-size: larger;
+  font-weight: bold;
+}
+.navbar-brand,
+.nav-link {
+  text-transform: uppercase;
+  padding: 10px 15px 0 15px !important;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link:hover {
+  border-top: 3px solid white;
+}
+.navbar-toggler {
+  border-color: white !important;
+}
+
+.toggle-container {
+  margin-right: 0;
+  padding-top: 7px;
+}
+
+.psDarkcheckBox[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.psLabel {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: indigo;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+
+.psLabel:after {
+  content: "" !important;
+  position: absolute !important;
+  top: 3px !important;
+  left: 3px !important;
+  width: 20px !important;
+  height: 20px !important;
+  background: tomato !important;
+  border-radius: 90px !important;
+  transition: 0.3s !important;
+}
+
+.psDarkcheckBox:checked + .psLabel {
+  background: green !important;
+}
+
+.psDarkcheckBox:checked + .psLabel:after {
+  left: calc(100% - 5px) !important;
+  transform: translateX(-100%) !important;
+}
+
+.psLabel:active:after {
+  width: 45px !important;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
+header {
+  border-bottom: 3px solid var(--bg-panel);
+  margin-bottom: 2%;
+}
+/* nav */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: slategray !important;
+}
+
+main,
+.containerP,
+.containerPDeux {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em !important;
+  margin-top: 10px !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* paul */
+.psComment {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  color: white;
+}
+.psViePerso {
+  text-align: center;
+  box-shadow: 10px 10px 5px -4px var(--color-b-shadow);
+  border-radius: 15px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 4% 0 5% 0;
+  color: white;
+}
+.card {
+  text-align: center;
+  margin-top: 1%;
+  background-color: var(--bg-panel) !important;
+  border-radius: 15px !important;
+  min-width: 250px !important;
+}
+.psCard {
+  border: none !important;
+}
+.psImgTop {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8em !important;
+  color: white;
+}
+.card-text {
+  text-align: justify;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+a.psButton {
+  background-color: gold;
+  border-color: darkcyan;
+  color: darkblue;
+  font-weight: 800;
+}
+a.psButton:hover {
+  background-color: darkcyan;
+  border-color: darkblue;
+  color: gold;
+  font-weight: 800;
+}
+a.psButton:active {
+  background-color: darkblue;
+  border-color: gold;
+  color: darkcyan;
+}
+
+/* samir */
+
+.exp {
+  margin-left: 3% !important;
+  margin-right: 3% !important;
+}
+
+.Portfolio {
+  justify-content: center;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+}
+.pstitreSa {
+  font-family: "Montserrat", sans-serif;
+  color: white !important;
+}
+.as_card {
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 10px 10px 5px -4px var(--color-b-shadow);
+  max-width: 500px !important;
+  min-width: 450px !important;
+}
+.as_card img {
+  position: relative !important;
+}
+.as_card .as_body {
+  position: absolute;
+  bottom: -120%;
+  width: 100%;
+  height: 100%;
+  background: rgba(82, 82, 83, 0.8);
+  padding: 0.5% 10%;
+  text-align: left;
+  transition: 0.5s;
+  z-index: 2;
+}
+.as_card .as_body a {
+  position: absolute !important;
+  top: -25px;
+  left: 75%;
+}
+.as_card:hover .as_body {
+  bottom: -80%;
+}
+
+/* contact */
+.contact {
+  padding: 2% 0 3% 0;
+}
+.yb-contact img {
+  background-size: cover;
+}
+.yb-card {
+  max-height: 200px;
+}
+/* footer */
+
+footer div {
+  display: flex !important;
+  align-items: center;
+}
+footer div:last-of-type {
+  padding-right: 5%;
+}
+footer {
+  display: flex !important;
+  z-index: 1 !important;
+  align-items: center;
+}
+footer ul {
+  display: inline-block;
+  margin-left: 5%;
+}
+footer ul,
+footer li {
+  background-color: white;
+}
+img.footChild {
+  float: right;
+  height: 75%;
+  margin: -7% 0 -16% 5%;
+}
+.testCopyright {
+  text-align: center;
+  margin: -25px 10px 0 0;
+  z-index: 5;
+  color: lawngreen;
+  font-size: 0.8em;
+}
+.fab {
+  color: lightcoral;
+  font-size: 1.2em;
+}
+.fab:hover {
+  color: lightskyblue;
+}
+.team li {
+  text-align: center;
+  color: lime;
+}
+
+.yb-links ul {
+  margin-bottom: 20px;
+}
+.yb-links li {
+  margin: 10px 0;
+}
+.psName {
+  color: mediumpurple !important;
+}
+.psName:hover {
+  color: lightblue !important;
+}
+
+footer a {
+  text-decoration: none !important;
+}
+footer a:hover {
+  color: crimson !important;
+}
+
+@media screen and (max-width: 700px) {
+  .lsCopyr {
+    display: none;
+  }
+  footer img {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  span.psName {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+    flex: auto;
+  }
+  .navbar {
+    justify-content: flex-end;
+  }
+  .psName {
+    display: none;
+  }
+}
+@media screen and (min-width: 701px) {
+  .msCopyr {
+    display: none;
+    text-align: right;
+  }
+}
+/* !! pour le switch !!*/
+
+.samirColor {
+  color: #222f3e;
+}

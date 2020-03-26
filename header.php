@@ -1,19 +1,28 @@
+<?php
+function nav_title (string $lien, string $title): string
+{
+  $classe = 'nav_title';
+  if ($_SERVER['SCRIPT_NAME'] === $lien) {
+    $classe = $classe . ' active';
+  }
+  return '<li class="' . $classe . '">
+            <a class="nav-item nav-link" href="' . $lien . '"> ' . $title . '</a>
+        </li>';
+}
+?>
 <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.php">Jon Snow</a>
+            <a class="navbar-brand" href="index.php">Son Goku(kakarot)</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="viePerso.php">Mon histoire</a>
-                    <a class="nav-item nav-link" href="exp.php">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.php">Contact</a>
+                  <?= nav_title('/viePerso.php', 'Mon histoire'); ?>
+                  <?php echo nav_title('/exp.php', 'Portfolio'); ?>
+                  <?php echo nav_title('/contact.php', 'Contact'); ?>
                 </div>
             </div>
-            <div class="toggle-container psNavSwitch" action="testCookie.php">
-                         <input class="psDarkcheckBox" type="checkbox" id="switch" name="theme" /><label title="Mode sombre" class="psLabel" for="switch" name="nameDark">Toggle</label>
-                </div>
         </nav>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -23,13 +32,13 @@
             </ol>
             <div class="carousel-inner max-height">
               <div class="carousel-item active">
-                <img src="img/jon_mo.jpg" class="d-block w-100" alt="...">
+                <img src="img/goku01.2.0.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/jon_snow.jpg" class="d-block w-100" alt="...">
+                <img src="img/goku03.2.0.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/jonCheval.jpg" class="d-block w-100" alt="Il pue un peu de la bouche">
+                <img src="img/goku02.2.0.png" class="d-block w-100" alt="Il pue un peu de la bouche">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
