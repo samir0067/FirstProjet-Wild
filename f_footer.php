@@ -1,7 +1,7 @@
 <footer class="container-fluid">
     <div class="container-fluid footCont">
         <ul class="col-md-2  col-sm-4 site-map footChild">
-            <li><a href="b_index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="c_viePerso.php">Mon histoire</a></li>
             <li><a href="d_exp.php">Portfolio</a></li>
             <li><a href="e_contact.php">Contact</a></li>

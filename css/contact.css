@@ -48,3 +48,6 @@ section {
   margin-top: 4%;
   background-color: rgba(146, 173, 243, 0.6);
 }
+.alert h1{
+  font-size: 8.5rem;;
+}
