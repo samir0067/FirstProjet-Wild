@@ -3,17 +3,14 @@ body {
   background-color: #222f3e;
 }
 h5 {
-  color: #333;
   margin: 1.5%;
 }
 p {
   font-size: 1.4em;
-  color: #333;
   font-family: "Montserrat", sans-serif;
 }
 h4 {
   text-transform: uppercase;
-  color: fuchsia !important;
   font-family: "Montserrat", sans-serif;
 }
 /* -- title -- */

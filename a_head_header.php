@@ -1,15 +1,19 @@
-<?php
-function nav_title (string $lien, string $title): string
-{
-  $classe = 'nav_title';
-  if ($_SERVER['SCRIPT_NAME'] === $lien) {
-    $classe = $classe . ' active';
-  }
-  return '<li class="' . $classe . '">
-            <a class="nav-item nav-link" href="' . $lien . '"> ' . $title . '</a>
-        </li>';
-}
-?>
+<?php require 'g_functions.php' ?>
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title> <?php if (isset($title)) { echo $title; } else { echo 'Dragon ball Z'; } ?> </title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/try.css">
+        <link rel="stylesheet" href="css/exp.css">
+        <link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+	</head>
+<body> 
 <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.php">Son Goku(kakarot)</a>
@@ -18,9 +22,9 @@ function nav_title (string $lien, string $title): string
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <?= nav_title('/viePerso.php', 'Mon histoire'); ?>
-                  <?php echo nav_title('/exp.php', 'Portfolio'); ?>
-                  <?php echo nav_title('/contact.php', 'Contact'); ?>
+                  <?= nav_title('/c_viePerso.php', 'Mon histoire'); ?>
+                  <?= nav_title('/d_exp.php', 'Portfolio'); ?>
+                  <?= nav_title('/e_contact.php', 'Contact'); ?>
                 </div>
             </div>
         </nav>
