@@ -16,7 +16,7 @@ echo"<div class='card as_card'>";
         echo"<img src='$img_key' class='card-img-top' alt='item021'>";
         echo"<div class='card-body as_body'>";
             echo"<h3 class='card-title'> $portfolio[0] </h3>";
-            echo"<a href='exp.php' class='btn btn-primary psButton'>Go</a>";
+            echo"<a href='d_exp.php' class='btn btn-primary psButton'>Go</a>";
         echo"</div>";
 echo"</div>";
 }

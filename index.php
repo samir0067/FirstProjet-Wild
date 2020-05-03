@@ -17,7 +17,7 @@
 						Avis à toi cher recruteur, je suis déjà mort une fois donc ce n'est pas le CORONAVIRUS qui va me tuer. 
 						Si tu veux découvrir mes nombreuses qualités je t'invite à découvrir mon histoire en cliquant sur ce lien ! 
 						</p>
-						<a href="viePerso.php" class="btn btn-primary psButton">Where is Winter ?</a>
+						<a href="c_viePerso.php" class="btn btn-primary psButton">Where is Winter ?</a>
 					</div>
 				</div>
 			</section>
@@ -44,7 +44,7 @@
 						<p class="card-text yb-align">
 						Vous pouvez me contacter pour plus d'informations. Ou si vous souhaitez un rendez-vous.
 						</p>
-						<a href="contact.php" class="btn btn-primary psButton">Where is  Daenerys ?</a>
+						<a href="e_contact.php" class="btn btn-primary psButton">Where is  Daenerys ?</a>
 					</div>
 				</div>
 			</section>

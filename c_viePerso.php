@@ -103,6 +103,6 @@ require 'a_head_header.php';?>
         </div>
 
         <?php include 'f_footer.php';?>
-</body>
+</div>
 
 </html>
